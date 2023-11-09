@@ -1,0 +1,22 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}
+
+nav ul li a{
+  text-decoration: none;
+  border: 1px black solid;
+  padding: 10px;
+  color: black;
+
+  background-color: lightcyan;
+}
+nav ul li a:hover{
+  background-color: cyan;
+}
